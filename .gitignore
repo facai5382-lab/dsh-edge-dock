@@ -1,0 +1,17 @@
+# 日志与调试产物
+*.log
+*.bak
+*.bak-*
+*.orig
+
+# 打包产物
+dist/
+*.zip
+
+# 系统
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# 依赖（本仓库不提交 node_modules）
+node_modules/

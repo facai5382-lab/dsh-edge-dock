@@ -1,0 +1,4 @@
+# dsh-edge-dock bundle patch: 挂一条 Loader 行，宿主半侧据此拉起/守护贴边助手
+- insert:
+    - id: dsh-edge-dock
+      name: 'dsh-edge-dock'

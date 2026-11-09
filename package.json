@@ -1,0 +1,36 @@
+{
+  "name": "dsh-edge-dock",
+  "version": "1.0.0",
+  "private": true,
+  "description": "贴边自动收起 + 窗口置顶 + 全屏时也能贴边唤出（Windows 桌面）",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "windows",
+    "edge-dock",
+    "always-on-top"
+  ],
+  "homepage": "https://github.com/facai5382-lab/dsh-edge-dock#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/facai5382-lab/dsh-edge-dock.git"
+  },
+  "bugs": {
+    "url": "https://github.com/facai5382-lab/dsh-edge-dock/issues"
+  },
+  "author": "facai5382-lab",
+  "license": "MIT",
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": { "platform": "web" }
+  }
+}
