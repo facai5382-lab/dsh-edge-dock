@@ -5,6 +5,8 @@
 
 只支持 **Windows + DSH 桌面版**。不需要管理员权限，不需要装 .NET SDK（Win10/11 自带 .NET Framework 4.x）。
 
+> 不想用 git 的话，直接下打包好的 zip：[**Releases · v1.0.0**](https://github.com/facai5382-lab/dsh-edge-dock/releases/latest) → 解压 → 跑 `install.ps1`。
+
 设置入口：Harness 设置 → **贴边自动收起**（左侧导航，图标是一个靠右边的窗口）。
 
 ---
